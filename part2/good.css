@@ -1,0 +1,95 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family:'Arial', serif;
+
+}
+p{
+	line-height: 200%;
+}
+#titlebar{
+	padding-top:200px;
+	padding-bottom: 10px;
+	color: white;
+	text-align: center;
+	background-image:url("try.jpg");
+	background-size: cover;
+}
+#pagebody{
+	background-color:white;
+	
+}
+/*adjusting my profile picture*/
+.profile{
+	max-width: 150pt; 
+	max-height: 150pt;
+	float: left;
+	display: inline;
+}
+
+/*navigation bar was taken from Tom Walsh -> https://www.youtube.com/watch?v=gQgqJG8ld7M  */
+.nav{
+	background-color:#800000 ; /*#D2691E*/
+	color: white;
+	list-style:None;     /*remove list dot*/
+	text-align:center;
+	padding: 20px 0 20px 0  /*top bottom left right*/
+}
+
+/*change li inside class nav only*/
+.nav > li{
+	display:inline-block;
+	padding-right:50pt;
+	
+}
+/*change anchor in the nav class*/
+.nav > li > a{
+	text-decoration: None;    /*remove underline*/
+	color: white;
+}
+
+/*who am I*/
+h1{
+	padding-left: 180pt;
+}
+h2{
+	
+}
+#p1{
+	padding-bottom:50pt;
+	padding-left: 180pt;
+	 line-height: 200%;
+}
+h3{
+	font-size:150%;
+}
+h5{
+	font-size: 110%;
+}
+h6{
+	font-size: 200%;
+}
+
+#info{
+	width:70%;
+	display:inline;
+	float:left;
+	padding: 10px;
+	background-color:white;
+	
+}
+
+#side{
+	width:25%;
+	display:inline;
+	float: right;  /*keep the texts on the right*/
+	background-color:#F0E68C;
+	padding-left:10px;
+}
+#bottom-text{
+	float:bottom;
+}
+#sidediv{
+	padding-bottom:20px;
+	line-height: 150%;
+}

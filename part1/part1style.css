@@ -1,0 +1,79 @@
+
+
+
+/* Background Image for webpage */
+body{
+	background:url("oldpaper.jpg") no-repeat fixed center; 
+  	background-size: cover;
+}
+
+
+/*Normal paragraph styling for story paragraphs* */
+
+p{
+	display: block;
+	font-family: Times New Roman;
+	font-size: 110%;
+	text-align: justify; /*stretch the lines so each line has equal width*/
+	font-weight: normal;
+	color: #131516;
+	text-indent: 1em;
+	margin-left: 50px;
+  	margin-right: 75px;
+
+}
+/*center paragraphs and bold them within class cb*/
+p.cb{
+	text-align: center;
+	font-weight: bold;
+}
+/*center paragraphs within class c*/
+p.c{
+	text-align: center;
+}
+
+/*css styling for images */
+img{
+	margin-top: 0px;
+	max-width: 500px;
+	display: block;
+    margin: 0 auto;
+	border: 5px solid #000;   
+   
+
+   	
+}
+
+/*learnt shadow text from http://www.w3schools.com/cssref/css3_pr_text-shadow.asp*/
+/* css for title header */
+h1{
+  font-size:400%;
+  letter-spacing: 5px;
+  text-shadow: 15px 15px 15px #505050;  /*add shadow for header*/
+  text-align: center;
+}
+
+/* css for other headers */
+h2,h3,h4,h5,h6{
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+/*css for the introduction located  */
+pre{
+	font-size: medium;
+	font-weight:bold;
+	margin-left: 50px;
+	margin-right: 75px;
+}
+
+/* css for tabling */
+table{
+	margin-left:auto; 
+    margin-right:auto;
+   	border-spacing: 10px;
+}
+/*for mouse over the chapters*/
+a:hover{
+	color: #FF0000;
+}

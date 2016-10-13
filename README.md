@@ -14,6 +14,10 @@ git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 
 License/Copyright
 =================
+In the Project gutenberg HTML files, the background and overall feelings has been modified into an old style format 
+using CSS by Chris Lin,
+including: change in font, font size, bordering the images, old paper backgrounds, arranged the text align format
+, and text shadowing the title.
 
 Textual content is copyright Abram Hindle (C) 2013 under the CC-BY-SA
 4.0 unported license. Attribution should be a hyperlink to the
